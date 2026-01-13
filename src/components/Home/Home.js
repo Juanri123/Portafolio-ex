@@ -53,7 +53,13 @@ function Home() {
           <Col md={12} className="home-about-social">
             <h1>Find Me On</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <a
+                  href="https://www.linkedin.com/in/juan-manuel-rincon-396995287/"
+                >
+                  <span className="purple">
+                 connect
+                 </span>
+                </a> with me
             </p>
             <ul className="home-about-social-links">
 

@@ -39,7 +39,9 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand >
-        <h1>JR</h1>
+        <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                <h1>JR</h1>
+              </Nav.Link>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
