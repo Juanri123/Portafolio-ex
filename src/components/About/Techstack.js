@@ -20,10 +20,9 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Javascript} alt="javascript" />
-        <div className="tech-icons-text"><a>JavaScript</a></div>
+        <div className="tech-icons-text">JavaScript</div>
       </Col>
       
-
       <Col xs={4} md={2} className="tech-icons">
         <img src={Typescript} alt="typescript" />
         <div className="tech-icons-text">TypeScript</div>
