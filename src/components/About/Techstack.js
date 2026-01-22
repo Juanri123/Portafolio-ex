@@ -12,6 +12,7 @@ import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
+import Angular from "../../Assets/TechIcons/Angular.png";
 
 
 function Techstack() {
@@ -46,6 +47,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={ReactIcon} alt="react" />
         <div className="tech-icons-text">React</div>
+      </Col>
+
+      <Col xs={2} md={2} className="tech-icons">
+        <img src={Angular} alt="angular" />
+        <div className="tech-icons-text">Angular</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
